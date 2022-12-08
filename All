@@ -1,9 +1,3 @@
-;“;” “#” “//”为注释符号，去掉前面的符号，该行才会生效
-; 基于STICK RULES、神机规则、mini等项目的配置整理
-; “Sabrina的万事屋”博主自用规则模板，随缘更新。欢迎访问本人的小破站： https://merlinblog.xyz/
-; Orz-3 TG频道：t.me/Orzmini
-; 本次更新日期：2022/01/19
-
 [general]
 #QuanX会对server_check_url指定的网址进行相应测试，以确认节点的可用性
 server_check_url=http://cp.cloudflare.com/generate_204
@@ -81,9 +75,9 @@ https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/Str
 https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/StreamingMedia/Region/US.list, tag=流媒体US, force-policy=美国节点, update-interval=86400, opt-parser=true, enabled=true
 https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/StreamingMedia/Streaming.list, tag=国际媒体, force-policy=国际媒体, update-interval=86400, opt-parser=true, enabled=true
 https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/StreamingMedia/StreamingSE.list, tag=港台番剧, force-policy=港台番剧, update-interval=86400, opt-parser=true, enabled=true
-https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/Global.list, tag=全球加速, force-policy=全球加速, update-interval=86400, opt-parser=true, enabled=true
+https://raw.githubusercontent.com/TzuFree/QX/Free/world.list, tag=全球加速, force-policy=全球加速, update-interval=86400, opt-parser=true, enabled=true
 https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/Extra/Apple/Apple.list, tag=苹果服务, force-policy=苹果服务, update-interval=86400, opt-parser=true, enabled=true
-https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/China.list, tag=国内网站, force-policy=direct, update-interval=86400, opt-parser=true, enabled=true
+https://github.com/TzuFree/QX/blob/Free/china.list, tag=国内网站, force-policy=direct, update-interval=86400, opt-parser=true, enabled=true
 https://raw.githubusercontent.com/17mon/china_ip_list/master/china_ip_list.txt#type=rule, tag=ChinaIPv4, force-policy=direct, update-interval=86400, opt-parser=true, enabled=true
 https://gaoyifan.github.io/china-operator-ip/chinanet6.txt#type=rule, tag=ChinaIPv6, force-policy=direct, update-interval=86400, opt-parser=true, enabled=true
 
